@@ -19,3 +19,4 @@ if __name__ == '__main__':
                         gene_name = attr.split('"')[1]
                 if gene_id and gene_name:
                     print(f'{gene_id},{gene_name}', file=fout)
+    print("Gene mapping file created successfully, saved to 'data/gene_mapping.csv'.")
